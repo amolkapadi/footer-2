@@ -1,0 +1,44 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h1{
+    font-size: 20px !important;
+    margin-bottom: 30px !important;
+}
+p{
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 18px !important;
+}
+.bi{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.bi:hover{
+    color: #12cc94;
+}
+.col-md-8, .container-fluid{
+    background-color: #F1F6F5;
+    padding: 10px;
+
+}
+.col-md-4{
+    background-color: #12cc94;
+    padding: 10px;
+}
+.btn-primary{
+    border-radius: 10px !important;
+    background-color: black !important;
+    border: none !important;
+}
+
+.btn-primary:hover{
+    background-color: #12cc94 !important;
+    border: 1px solid black !important;
+}
